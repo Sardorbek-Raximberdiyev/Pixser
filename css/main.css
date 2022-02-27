@@ -1,0 +1,305 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+
+}
+
+*:focus{
+  outline: 2px solid rgb(235, 173, 3);
+  outline-offset: 2px;
+}
+
+.wrapper{
+  Font-family: Open Sans;
+  Font-style: Regular;
+  Font-size: 16px;
+  Line-height: 24px;
+  font-weight: 400;
+  color: #000000;
+  background-color: #fff;
+  width: 1300px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+}
+
+.sayt-header{
+  padding: 8px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 20px 0 #0000001c;
+}
+
+.sayt-nav{
+  display: flex;
+  align-items: center;
+}
+
+.sayt-nav-child{
+  color: #000;
+  margin-right: 32px;
+  transition: all 0.3s ease;
+}
+
+.sayt-nav-child:hover{
+  color: rgb(228, 89, 9);
+}
+
+.sayt-nav-child:active{
+  text-decoration: underline;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.btn{
+  Font-family: Open Sans;
+  Font-style: Bold;
+  Font-size: 16px;
+  Line-height: 24px;
+  display: inline-block;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #00BAFC;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.btn:hover{
+  opacity: 0.8;
+}
+
+.btn:active{
+  opacity: 0.6;
+}
+
+.btm{
+  margin-right: 16px;
+}
+
+.block{
+  display: flex;
+  padding: 97px 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero{
+  width: 470px;
+}
+
+.hero h2{
+  Font-family: Open Sans;
+  Font-style: Bold;
+  Font-size: 30px;
+  Line-height: 39px;
+  margin-bottom: 16px;
+}
+
+.hero p{
+  margin-bottom: 16px;
+}
+
+.services{
+  padding: 56px 100px;
+  text-align: center;
+}
+
+.services h3:first-child{
+  margin-bottom: 16px;
+}
+
+.services img{
+  margin-bottom: 16px;
+}
+
+.promo-title{
+  Font-family: Open Sans;
+  Font-style: Bold;
+  Font-size: 24px;
+  Line-height: 31px;
+  margin-bottom: 16px;
+}
+
+.text{
+  margin: 0 auto 24px;
+  width: 720px;
+}
+
+.wrap{
+  margin-bottom: 48px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hero-buttom{
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-buttom:nth-child(2){
+  margin-right: 0;
+}
+
+.box-two{
+  margin-right: 70px;
+  box-shadow: 0 8px 8px 0 rgba( 0, 0, 0, 0.1);
+  width: 320px;
+  height: 260px;
+}
+
+.box-two h3{
+  Font-family: Open Sans;
+  Font-style: Bold;
+  Font-size: 20px;
+  Line-height: 26px;
+  margin-bottom: 16px;
+}
+
+.hero_link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-two:nth-child(3){
+  margin-right: 0;
+}
+
+.btn-two{
+  display: inline-block;
+  text-decoration: underline;
+  color: #00BAFC;
+}
+
+.hov-we-work{
+  padding: 56px 234px;
+}
+
+.box-three{
+  text-align: center;
+}
+
+.section-title{
+  Font-family: Open Sans;
+  Font-style: Bold;
+  Font-size: 24px;
+  Line-height: 31px;
+  margin-bottom: 16px;
+}
+
+.section-text{
+  margin-bottom: 24px;
+}
+
+.buy{
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buy h4{
+  Font-family: Open Sans;
+  Font-style: Bold;
+  Font-size: 20px;
+  Line-height: 26px;
+  margin-bottom: 8px;
+}
+
+.images{
+  margin-right: 32px;
+}
+
+.image{
+  margin-left: 32px;
+}
+
+.box-btn{
+  text-align: center;
+}
+
+.order-form{
+  color: #fff;
+  text-align: center;
+  padding: 64px 290px;
+  background-color: #00BAFC;
+}
+
+.order-form h3{
+  Font-family: Open Sans;
+  Font-style: Bold;
+  Font-size: 24px;
+  Line-height: 31px;
+  margin-bottom: 16px;
+}
+
+.order-form p{
+  margin-bottom: 24px;
+}
+
+form{
+  margin: 0 auto;
+  width: 348px;
+  height: 304px;
+  padding: 24px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+input{
+  border: none;
+  padding: 16px;
+  margin-bottom: 16px;
+  background-color: #F3F3F3;
+}
+
+.footer{
+  display: flex;
+  color: #fff;
+  padding: 56px 100px;
+  background-color: #191919;
+}
+
+.footer li{
+  margin-bottom: 8px;
+}
+
+.footer h3{
+  Font-family: Open Sans;
+  Font-style: Bold;
+  Font-size: 20px;
+  Line-height: 26px;
+  margin-bottom: 16px;
+}
+
+.footer-block{
+  width: 320px;
+  margin-right: 100px;
+}
+
+.icon{
+  margin-right: 8px;
+}
+
+.footer-block-two{
+  margin-right: 87px;
+}
+
+.footer-block-two a{
+  color: #fff;
+  transition: all 0.4s ease;
+}
+
+.footer-block-two a:hover{
+  color: rgb(228, 89, 9);
+}
+
+.footer-block-two a:active{
+ color: rgba(255, 255, 255, 0.4);
+}
